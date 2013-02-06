@@ -7,8 +7,8 @@
     <link href="../css/style.css" rel="stylesheet">
     <link href="shops.js" type="application/json" rel="exhibit/data" />
 
-    <link rel="exhibit-extension" type="text/javscript" href="http://api.simile.zepheira.com/exhibit/3.0.0/extensions/map/map-extension.js?service=google&bundle=false" />
-    <script src="http://api.simile.zepheira.com/exhibit/3.0.0/exhibit-api.js?bundle=false"></script>
+    <link rel="exhibit-extension" type="text/javascript" href="http://api.simile-widgets.org/exhibit/3.0.0/extensions/map/map-extension.js" />
+    <script src="http://api.simile-widgets.org/exhibit/3.0.0/exhibit-api.js"></script>
 
     <style type="text/css">
       .title {
@@ -18,6 +18,12 @@
       td.viewpane {
       padding: 0px 0px 0px 20px;
       }
+
+      <!-- bootstrap interaction with google v3 exhibit problem ... override locally -->
+      <!-- https://github.com/twitter/bootstrap/issues/1552 -->
+
+      #viewpane label { width: auto; display:inline; }
+      #viewpane img { max-width: none; }
     </style>
 
   </head> 
@@ -52,10 +58,10 @@
 
       <br />
 
-      <table>
+      <table class="navigator">
 	<tr valign="top" class="row">
 	  
-	  <td class="span3">
+	  <td class="facets span3">
 	    <br />
 	    
 	    <b>Search</b><br />
@@ -67,19 +73,18 @@
 	    
           </td>
 	  
-          <td ex:role="viewPanel" class="span9 viewpane">
+          <td ex:role="viewPanel" class="viewpane span9" id="viewpane">
 	    
 	    <div class="where-lens" 
-		 ex:role="exhibit-view" 
-		 ex:viewClass="Exhibit.MapView" 
+		 ex:role="view" 
+		 ex:viewClass="Map" 
 		 ex:label="Where" 
 		 ex:latlng=".latlong"
 		 ex:zoom="4"
 		 ex:center="39.083356,-94.581559"
 		 ex:mapHeight="600">
 	      
-	      <div ex:role="lens" class="a-lens" onmouseover="mouseOver(this);" onmouseout="mouseOut(this);">
-		
+	      <div ex:role="lens" class="a-lens" style="display: none;">
  		<div ex:if="exists(.url)">
 		  <div class="title"><a ex:href-content=".url"><span ex:content=".label"></span></a></div>
 		  <div class="title"><span ex:content=".label"></span></div>
@@ -110,8 +115,7 @@
 		 ex:viewClass="Exhibit.TileView" 
 		 ex:label="Who">
 	      
-	      <div ex:role="lens" class="a-lens" onmouseover="mouseOver(this);" onmouseout="mouseOut(this);">
-		
+	      <div ex:role="lens" class="a-lens" style="display: none;">
  		<div ex:if="exists(.url)">
 		  <div class="title"><a ex:href-content=".url"><span ex:content=".label"></span></a></div>
 		  <div class="title"><span ex:content=".label"></span></div>
