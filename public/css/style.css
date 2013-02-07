@@ -10,12 +10,24 @@
       text-align: right;
       }
       
-
       .prose {
       font-size: 140%;
       line-height: 140%;
       }
 
+      .prose p {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      }
+
+      .prose .header {
+      margin-top: 20px;
+      }
+
+      .prose ul li {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      }
 
       .pagetext img {
       margin: 10px 10px 10px 10px;
@@ -27,7 +39,10 @@
       }      
 
       .caption {
-      padding-left: 30px;
+       margin: 0 auto !important;
+       float: none !important;
+       text-align: center;
+      font-size: 80%;
       }
 
       footer {
