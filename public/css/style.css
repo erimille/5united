@@ -11,6 +11,15 @@
       width: 110px;
       text-align: right;
       }
+
+    .tagline {
+      position: absolute;
+      margin-left: -5px;
+      padding-top: 2px;
+      margin-top: 10px; 
+      font-size: 100%; 
+      color: #488AC7; /* steel blue */
+      }
       
       .prose {
       font-size: 140%;
