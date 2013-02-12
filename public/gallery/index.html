@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>5 United / Gallery</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <style type="text/css">
       table {
       width:100%;
@@ -18,7 +18,14 @@
       }
       p {
       padding: 10px 10px 10px 10px;
+      line-height: 150%;
       }      
+      .bs-icon {
+      float: left;
+      margin: 12px 10px 0 0;
+      opacity: .7;
+      padding-left: 10px;
+      }
     </style>
   </head>
 
@@ -50,9 +57,16 @@
 
       <h1>Gallery</h1>
 
-      <br />
+      <div class="prose">
 
-      <table class="table table-striped">
+	<img class="bs-icon" src="../img/glyphicons_011_camera.png">
+        <p>200 (and counting) 5 United members have shared pictures of their beloved /5
+        bikes under the <a href =
+        "http://groups.yahoo.com/group/5united/photos/album/0/list?order=mtime">5
+        United Yahoo Groups Photo</a> member only area. Not a member,
+        no worries, here is just a small sample of our members bikes you may find on the roads near you.</p>
+
+          <table class="table table-striped">
         <tr class="row">
           <td class="image">
             <a href="./chrome5.jpg"><img src = "./chrome5.jpg" class="img-polaroid" /></a>
@@ -193,6 +207,7 @@
           </td>
       </table>
 
+          </div>
       <hr />
 
       <footer>
