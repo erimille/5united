@@ -119,4 +119,10 @@
       .notes {
       color: grey;
       }
-      
+
+      blockquote {
+      font-size: 90%;
+      font-style: italic;
+      color: #708090;
+      }     		  
+
