@@ -5,6 +5,26 @@
     <title>5 United / Articles :: Tires</title>
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
     <link href="../../css/style.css" rel="stylesheet">
+    <style type="text/css">
+      img {
+      margin: 10px 10px;
+      }
+      .background .title {
+      font-size: 150%;
+      line-height: 150%;
+      font-weight: bold;
+      display:inline;
+      }
+      .background a {
+      position: absolute;
+      display: inline;
+      margin-left: 10px;
+      margin-top: 0px;
+      }
+      .background {
+      padding-bottom: 15px;
+      }
+    </style>
   </head>
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
@@ -36,6 +56,14 @@
 
       <h1>/5 Tire Options</h1>
 
+      <div class="background">
+        <div class="title">Originally compiled and curated by Cris Vande Velde.</div>
+
+        <a href="#" class="btn" id="pagehistory"
+	   data-toggle="popover" data-placement="top" data-placement="right"
+	   data-content="Page derived from the contents of 5 United conversations, and from tire manufacturer's web sites.  Posted here with Cris' explicit permission." title="Page History"><i class="icon-info-sign"></i></a>
+      </div>
+
       <div class="row">
 	<div class="span3 bs-docs-sidebar">
           <ul class="nav nav-list bs-docs-sidenav">
@@ -59,8 +87,8 @@
           <section id="introduction">
             <div class="alert alert-block">
 	      <button type="button" class="close" data-dismiss="alert">&times;</button>
-              This page is based on a <a href="http://f1.grp.yahoofs.com/v1/9GshURxezHI6SyidRni8kDFbhOMkQXjZ-3Ml-tBu3Zk1emRgDexKa4wQOnvbnI3IbVXNowIUAdQTl2STnvk5fy9KjTq8AI4Y/tiretread.pdf">circa 2008 summary</a> of 5 United
-              list wisdom.  It needs to be updated but was accurate at
+              This page is based on a circa 2008 <a href="http://f1.grp.yahoofs.com/v1/9GshURxezHI6SyidRni8kDFbhOMkQXjZ-3Ml-tBu3Zk1emRgDexKa4wQOnvbnI3IbVXNowIUAdQTl2STnvk5fy9KjTq8AI4Y/tiretread.pdf">summary of 5 United
+              tire wisdom</a>.  It needs to be updated but was accurate at
               the time it was published.
             </div>
 
@@ -666,5 +694,15 @@ difference between IRCs and Metzlers.
     <script src="../../js/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/bootstrap-scrollspy.js"></script>
+    <script src="../../js/bootstrap-tooltip.js"></script>
+    <script src="../../js/bootstrap-popover.js"></script>
+    <script>
+      $(function (){
+      $("#pagehistory").popover({
+      placement:'right',
+      trigger:'hover'
+      });
+      });
+    </script>
   </body>
 </html>
