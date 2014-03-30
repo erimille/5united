@@ -26,7 +26,7 @@
       }
       
       .prose {
-      font-size: 140%;
+      font-size: 130%;
       line-height: 140%;
       }
 
@@ -36,6 +36,11 @@
 
       .prose .header {
       margin-top: 20px;
+      }
+
+      .front {
+      font-size: 140%;
+      line-height: 140%;
       }
 
       ol.carousel-indicators  {
