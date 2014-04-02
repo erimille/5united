@@ -79,7 +79,9 @@
        margin: 0 auto !important;
        float: none !important;
        text-align: center;
-      font-size: 80%;
+       padding-top: 10px;
+       font-weight: bold;
+      font-size: 90%;
       }
 
       footer {
