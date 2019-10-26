@@ -41,3 +41,8 @@ ol.carousel-indicators {
 .carousel .carousel-indicators .active {
     background-color: #444;
 }
+
+div.header h3 i {
+    color: grey;
+    padding-right: .5rem;
+}
