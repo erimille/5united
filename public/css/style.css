@@ -46,3 +46,19 @@ div.header h3 i {
     color: grey;
     padding-right: .5rem;
 }
+
+.page-container .row {
+    padding-top: 20px !important;
+}
+
+.page-container .row .card {
+    padding: 10px;
+}
+
+.page-container ol li {
+    padding: 5px;
+}
+
+.page-container .description {
+    padding: 5px !important;
+}
