@@ -1,1006 +1,1105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>5 United / Articles - Torque Specifications</title>
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../css/style.css" rel="stylesheet">
-    <link href="/css/font-awesome.min.css" rel="stylesheet">
-    <style type="text/css">
-      .green {
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>5United / Articles - Torque Specifications</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://kit.fontawesome.com/bd54affd80.js" crossorigin="anonymous"></script>
+
+  <link href="/css/style.css" rel="stylesheet">
+  <style type="text/css">
+    .green {
       color: green;
-      }
-      .orange {
+    }
+
+    .orange {
       color: orange;
-      }
-      .red {
+    }
+
+    .red {
       color: red;
-      }
-      .fa {
+    }
+
+    .fa {
       padding-left: 3px;
       padding-right: 3px;
-      }
-    </style>
-  </head>
+    }
+  </style>
+</head>
 
-  <body>
-
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-	<div class="container">
-	  <a class="brand" href="/">5 United <span class="tagline">Classic BMW Motorcycle Club</span></a>
-	  <ul class="nav pull-right">
-	    <li><a href="/">Home</a></li>
-	    <li><a href="/about/">About</a></li>
-	    <li class="active"><a href="/articles/">Articles</a></li>
-	    <li><a href="/articles/">Articles</a></li>
-	    <li><a href="/service/">Parts / Service</a></li>
-	    <li><a href="/gallery/">Gallery</a></li>
-	    <li><a href="/events/">Events</a></li>
-	  </ul>
-	</div>
-      </div>
-    </div>
+<body>
 
 
-    <div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand brand" href="/">
+    <img src="http://5united.org/img/5united-logo-small.png" alt="5 United Logo"/>
+    <span class="brand-title">5 United</span> <span class="brand-tagline">Classic BMW Motorcycle Club</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <ul class="breadcrumb">
-	<li><a href="/">Home</a> <span class="divider">/</span></li>
-	<li><a href="/articles/">Articles</a> <span class="divider">/</span></li>
-	<li class="active">Torque Specifications</li>
-      </ul>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="/history/">History</a></li>
+      <li class="nav-item active"><a class="nav-link" href="/articles/">Articles</a></li>
+      <li class="nav-item"><a class="nav-link" href="/service/">Parts / Service</a></li>
+      <li class="nav-item"><a class="nav-link" href="/gallery/">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="/events/">Events</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+
+  <br/>
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item"><a href="/articles/">Articles</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Torque Specifications</li>
+        </ol>
+      </nav>
 
       <h1>Torque Specifications for the /5 motorcycles</h1>
 
-      <div class="prose">
-
-	<div class="alert alert-error">Warning: The following page is not currently ready for use. Don't assume anything is accurate. You've been warned!</div>
-
-	<div class="row">
-	  <div class="span6">
-	    
-	    <p>The main reason for a spec on tightness is to prevent over
-	      tightening, not under tightening.  In the case of multiple
-	      fasteners on one part, it is also to prevent warping. </p>
-	    
-	    <p>Carefully check for the torque on the part that you are
-	      tightening or loosening. Some of the after market
-	      books have not always gotten it correct.  Use common sense and
-	      double check it. <a href = "#1">[1]</a> </p>
-	    
-	    <p>The following are "R" model common torque values
-	      adapted from technical data published 12/89 by BMW North
-	      America, Inc. and (potentially) current as of
-	      2013. These values have been annotated as a
-	      collaborative effort of the 5united community.</p>
-	  </div>
-	  
-          <div class="span6">
-	    
-	    <form name="convert" class="form form-horizontal well">
-	      <fieldset>
-		<legend>Convert Newton-metre to Foot-Pound force</legend>
-		<div class="control-group">
-		  <label class="control-label" for="unit1">Newton-Metres</label>
-		  <div class="controls">
-		    <input type=text name="unit1" onchange="forward()" value="">
-		  </div>
-		</div>
-		<div class="control-group">
-		  <label class="control-label" for="unit2">Foot-Pounds</label>
-		  <div class="controls">
-		    <input type=text name="unit2" onchange="backward()" value="">
-		  </div>
-		</div>
-		<div class="control-group">
-		  <div class="controls">
-		    <input type=button class="btn btn-primary" value="Convert" onclick="forward()">
-		  </div>
-		</div>
-	      </fieldset>
-	    </form>	    
-	    
-	  </div>
-	</div>
-
-	<div class="row">
-	  <div class="span12">
-
-	    <p>The following Key is designed to help indicate the accuracy of these torque values</p>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Values are believed to be accurate</td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench orange"></i></td>
-		  <td>Values are believed to be somewhat accurate but there is mild disagreement within the community.</td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench red"></i></td>
-		  <td>Values are believed to not be accurate. There is strong disagreement within the community. You'll want to do your homework on this one.</td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-warning"></i></td>
-		  <td>Careful! Easily stripped by overtorquing.</td>
-		</tr>
-	      </tbody>
-	    </table>
-	    
-	  </div>
-	</div>
-	    
-	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="engine" name="engine">Engine</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Engine to Frame</td>
-		  <td>52</td>
-		  <td>72</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Conrod Bolts</td>
-		  <td>36</td>
-		  <td>50</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Threaded Carb Intake</td>
-		  <td>36</td>
-		  <td>50</td>
-		  <td></td>
-		  <td>Use Red Loctite</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench orange"></i></td>
-		  <td>Cylinder Head Nuts</td>
-		  <td>10 / 18 / 25</td>
-		  <td>15 / 25 / 35</td>
-		  <td>3 / 10, 18, 25</td>
-		  <td>Lightly oiled bolts</td>
-		  <td>
-		    <blockquote>
-		      <p>Cylinder studs have had a variety of torque settings published, some in error.   The true story, as in a BMW bulletin, is that the torque for ALL models at these studs should be 25 +- 2 footpounds, and the target is 25, NOT 27, and definitely not 29-31, as in the old /5 manual days.   If your torque wrench is quite accurate, you may be able to use 27 or 28.</p>
-		      <p class="cite"><cite>Snowbum</cite> <a href="#3">[3]</a></p>
-		    </blockquote>
-		  </td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Valve Adjustment Nuts</td>
-		  <td>14</td>
-		  <td>20</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench orange"></i></td>
-		  <td>Oil Drain Plug</td>
-		  <td>22</td>
-		  <td>30</td>
-		  <td></td>
-		  <td>Renew washer</td>
-		  <td>
-		    <blockquote><p>Book values have been variously from 20-25.  I tend to use the
-			low side of spec for this pan drain bolt.</p>
-		      <p class="cite"><cite>Snowbum</cite> <a href = "#2">[2]</a></p>
-		    </blockquote>
-		  </td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Oil Filter Cover Plate Bolts</td>
-		  <td>7</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Hoses to Oil Cooler Thermostat</td>
-		  <td>14</td>
-		  <td>20</td>
-		  <td></td>
-		  <td>Use 4 new crush washers</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Oil Pickup Bolts</td>
-		  <td>7</td>
-		  <td>10</td>
-		  <td></td>
-		  <td>Use locktite blue</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Oil Pump Cover</td>
-		  <td>7</td>
-		  <td>10</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-warning"></i><i class="fa fa-wrench orange"></i></td>
-		  <td>Oil Sump to Engine Housing</td>
-		  <td>7 (78-81 inch lb.)</td>
-		  <td>10</td>
-		  <td></td>
-		  <td>Gasket letter side up. Do *NOT* overtorque</td>
-		  <td>
-		    <blockquote>
-		      <p>I suggest less,
-			perhaps 5.5-6 (ft lb), carefully tighten in a staggered cross-pattern, starting at the center ones, and do it
-			very evenly. NO GOO!  Put the lettered side UP</p>
-		      <p class="cite"><cite>Snowbum</cite> <a href = "#2">[2]</a></p>
-		    </blockquote>
-		  </td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench red"></i></td>
-		  <td>Exhaust Finned Nuts</td>
-		  <td>144</td>
-		  <td>200</td>
-		  <td></td>
-		  <td>Use anti-seize on spigot</td>
-		  <td><blockquote>
-		      <p>There is NO GOOD REASON to have these nuts so
-			tight.  I don't know how tight I put them, but I suspect it
-			is not over 90 foot-pounds.  I never do them with a torque
-			wrench, I always do it by feel, a decent grunt, using a
-			proper finned wrench, and NOT too darn tight.</p>
-		      <p class="cite"><cite>Snowbum</cite> <a href = "#2">[2]</a></p>
-		    </blockquote>
-		  </td>
-		</tr>
-	      </tbody>		
-	    </table>
-	  </div>
-	</div>
-
-
-	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="timing" name="timing">Timing Chain Cover to Engine Housing</h3>
-	    
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Nut</td>
-		  <td>5</td>
-		  <td>7</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Bolt</td>
-		  <td>7</td>
-		  <td>10</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Camshaft Support Bearing</td>
-		  <td>17</td>
-		  <td>24</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Oil Pressure Switch</td>
-		  <td>18</td>
-		  <td>25</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-
-	  </div>
-	</div>
-
-	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="electrics" name="electrics">Engine Electrics</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-warning"></i><i class="fa fa-wrench green"></i></td>
-		  <td>Spark Plugs</td>
-		  <td>14</td>
-		  <td>20</td>
-		  <td></td>
-		  <td></td>
-		  <td>Careful! Easily stripped by overtorquing.</td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Alternator Rotor to Crankshaft</td>
-		  <td>18</td>
-		  <td>25</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-
-  	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="clutch" name="clutch">Clutch</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Clutch Housing to Crankshaft (Flywheel)</td>
-		  <td>72</td>
-		  <td>100</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Clutch Cover Bolts</td>
-		  <td>14</td>
-		  <td>20</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-	
-
-	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="clutch" name="clutch">Transmission</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench orange"></i></td>
-		  <td>Oil Drain Plug</td>
-		  <td>19</td>
-		  <td>26</td>
-		  <td></td>
-		  <td>Renew washer</td>
-		  <td>
-		    <div class="alert">14-18.5 foot-pounds <a href = "#2">[2]</a></div>
-		  </td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench orange"></i></td>
-		  <td>Oil Filter Plug</td>
-		  <td>23</td>
-		  <td>31</td>
-		  <td></td>
-		  <td>Renew washer</td>
-		  <td>	  
-		    <div class="alert">20-22 foot-pounds <a href = "#2">[2]</a></div>		    
-		  </td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Transmission to Engine</td>
-		  <td>24</td>
-		  <td>33</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Transmission Cover</td>
-		  <td>6</td>
-		  <td>8</td>
-		  <td></td>
-		  <td>Use new gasket</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Output Flange to Output Shaft</td>
-		  <td>160</td>
-		  <td>220</td>
-		  <td></td>
-		  <td>Clean and no oil</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Gearshift Bracket to Housing</td>
-		  <td>17</td>
-		  <td>24</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Driveshaft to Output Flange</td>
-		  <td>25</td>
-		  <td>35</td>
-		  <td></td>
-		  <td>Only use short bolts and no washers</td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-	
-
-	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="forks" name="forks">Front Forks</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Fork Brace</td>
-		  <td>21</td>
-		  <td>29</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Upper Fork Sprint Cap</td>
-		  <td>77</td>
-		  <td>107</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Fork Oil Filler Plug Bolt</td>
-		  <td>6</td>
-		  <td>9</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Fork Oil Drain Plug Bolt</td>
-		  <td>5</td>
-		  <td>6</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench orange"></i></td>
-		  <td>Steering Cap Nut</td>
-		  <td>77</td>
-		  <td>107</td>
-		  <td></td>
-		  <td></td>
-		  <td>	      
-		    <div class="alert">80-95 foot-pounds <a href = "#2">[2]</a></div>
-		  </td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Lower Fork Clamp Bolt</td>
-		  <td>21</td>
-		  <td>29</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Slotted Nut (Steering Pivot Bearing)</td>
-		  <td>No Free Play</td>
-		  <td>Max of 0.5</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Handlebar Pinch Bolts</td>
-		  <td>15</td>
-		  <td>22</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-	
- 	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="frontaxle" name="frontaxle">Front Axle</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Axle Clamp Bolts</td>
-		  <td>10</td>
-		  <td>15</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Axle Nut</td>
-		  <td>33</td>
-		  <td>45</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-
- 	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="rearaxle" name="rearaxle">Rear Axle</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Axle Clamp Bolts</td>
-		  <td>10</td>
-		  <td>15</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Axle Nut</td>
-		  <td>33</td>
-		  <td>45</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-
- 	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="swingarm" name="swingarm">Swing Arm</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Oil Drain Plug</td>
-		  <td>10</td>
-		  <td>15</td>
-		  <td></td>
-		  <td>Renew washer</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Oil Fill Plug</td>
-		  <td>10</td>
-		  <td>14</td>
-		  <td></td>
-		  <td>Renew washer</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Pin Bolt</td>
-		  <td>7</td>
-		  <td>10</td>
-		  <td></td>
-		  <td>Use pointed top to grease here</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Pin Bolt Lock Nut</td>
-		  <td>72</td>
-		  <td>100</td>
-		  <td></td>
-		  <td>Use a thin sided 27MM socket</td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-
- 	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="rearwheel" name="rearwheel">Rear Wheel Drive</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Oil Drain Plug</td>
-		  <td>18</td>
-		  <td>25</td>
-		  <td></td>
-		  <td>Renew washer</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Oil Fill Plug</td>
-		  <td>7</td>
-		  <td>10</td>
-		  <td></td>
-		  <td>Renew washer</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-warning"></i><i class="fa fa-wrench green"></i></td>
-		  <td>Oil Level Inspection Plug</td>
-		  <td>5</td>
-		  <td>8</td>
-		  <td></td>
-		  <td>Renew washer</td>
-		  <td>Oil inspection plug is better to be left alone as it is easily stripped by overtorquing</td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Rear Drive Housing to Swing Arm</td>
-		  <td>34</td>
-		  <td>47</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Housing Cover Bolt / Nut</td>
-		  <td>10</td>
-		  <td>15</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Shock Absorber Nut / Bolt</td>
-		  <td>25</td>
-		  <td>35</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Bevel Gear Nut</td>
-		  <td>106</td>
-		  <td>147</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Threaded Ring Nut</td>
-		  <td>75</td>
-		  <td>105</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-
-  	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="brake" name="brake">Brake</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Brake Disc to Wheel</td>
-		  <td>21</td>
-		  <td>29</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-
-
-  	<div class="row">
-	  <div class="span12">
-	    
-	    <h3 id="frame" name="frame">Frame</h3>
-
-	    <table class="table table-striped table-hover table-bordered">
-	      <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th>Component</th>
-		  <th>Foot Pounds</th>
-		  <th>Newton Meters</th>
-		  <th>Stages</th>
-		  <th>Notes</th>
-		  <th>Comments</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Rear Sub Frame Bolts</td>
-		  <td>18</td>
-		  <td>25</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Centerstand Bolts</td>
-		  <td>24</td>
-		  <td>35</td>
-		  <td></td>
-		  <td>Use blue loctite</td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Sidestand Bolt</td>
-		  <td>20</td>
-		  <td>29</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Engine to Frame</td>
-		  <td>52</td>
-		  <td>72</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i class="fa fa-wrench green"></i></td>
-		  <td>Shock Frame Nut / Bolt</td>
-		  <td>25</td>
-		  <td>25</td>
-		  <td></td>
-		  <td></td>
-		  <td></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-
-	<h2>Ready Reference </h2>
-
-	<ol>
-	  <li name="1" id="1"><a href="http://www.w6rec.com/duane/bmw/torque/index.htm">Proper torque on the BMW motorcycle</a>, by Duane Ausherman</li>
-	  <li name="2" id="2"><a href="http://bmwmotorcycletech.info/torquevalues.htm">Torque values for various fasteners on the various models of BMW Airhead Motorcycles</a>, by Snowbum</li>
-	  <li name="3" id="3"><a href="http://bmwmotorcycletech.info/torquespecs&problems.htm">Torque specifications, using torque wrenches; calibration checks;..... problems</a>, by Snowbum</li>
-	</ol>
-	
-	<h2>Thanks</h2>
-	    
-	<p>Special thanks to Brian Mehosky and Duane Ausherman for getting this started, and J Wilson for providing torque details.</p>
-
+      <div class="alert alert-danger">Warning: The following page is not currently ready for use. Don't assume anything
+        is accurate. You've been warned!
       </div>
-      
-      <hr />
-      
-      <footer>
-      </footer>
-      
-    </div> <!-- /container -->
-    
-    <!-- javascript
-	 ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../../js/jquery.min.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      function forward() {
+
+      <div class="row">
+        <div class="col-md-6">
+
+          <p>The main reason for a spec on tightness is to prevent over
+            tightening, not under tightening. In the case of multiple
+            fasteners on one part, it is also to prevent warping. </p>
+
+          <p>Carefully check for the torque on the part that you are
+            tightening or loosening. Some of the after market
+            books have not always gotten it correct. Use common sense and
+            double check it. <a href="#1">[1]</a></p>
+
+          <p>The following are "R" model common torque values
+            adapted from technical data published 12/89 by BMW North
+            America, Inc. and (potentially) current as of
+            2013. These values have been annotated as a
+            collaborative effort of the 5united community.</p>
+        </div>
+
+        <div class="col-md-6">
+
+          <div class="card bg-light">
+            <div class="card-body">
+
+              <form name="convert" class="form form-horizontal">
+                <fieldset>
+                  <legend>Convert force</legend>
+									<div class="row">
+                  <div class="col-md-6 control-group">
+                    <label class="control-label" for="unit1">Newton-Metres</label>
+                    <div class="controls">
+                      <input type=text name="unit1" onchange="forward()" value="">
+                    </div>
+                  </div>
+                  <div class="col-md-6 control-group">
+                    <label class="control-label" for="unit2">Foot-Pounds</label>
+                    <div class="controls">
+                      <input type=text name="unit2" onchange="backward()" value="">
+                    </div>
+                  </div>
+									</div>
+									<br />
+                  <div class="control-group">
+                    <div class="controls">
+                      <input type=button class="btn btn-primary" value="Convert" onclick="forward()">
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+			<br />
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <p>The following Key is designed to help indicate the accuracy of these torque values</p>
+
+					<div class="table-responsive">
+
+          <table class="table table-striped table-hover table-bordered">
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Values are believed to be accurate</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench orange"></i></td>
+              <td>Values are believed to be somewhat accurate but there is mild disagreement within the community.</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench red"></i></td>
+              <td>Values are believed to not be accurate. There is strong disagreement within the community. You'll want
+                to do your homework on this one.
+              </td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-warning"></i></td>
+              <td>Careful! Easily stripped by overtorquing.</td>
+            </tr>
+            </tbody>
+          </table>
+
+					</div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="engine" name="engine">Engine</h3>
+
+					<div class="table-responsive">
+
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Engine to Frame</td>
+              <td>52</td>
+              <td>72</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Conrod Bolts</td>
+              <td>36</td>
+              <td>50</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Threaded Carb Intake</td>
+              <td>36</td>
+              <td>50</td>
+              <td></td>
+              <td>Use Red Loctite</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench orange"></i></td>
+              <td>Cylinder Head Nuts</td>
+              <td>10 / 18 / 25</td>
+              <td>15 / 25 / 35</td>
+              <td>3 / 10, 18, 25</td>
+              <td>Lightly oiled bolts</td>
+              <td>
+                <blockquote>
+                  <p>Cylinder studs have had a variety of torque settings published, some in error. The true story, as
+                    in a BMW bulletin, is that the torque for ALL models at these studs should be 25 +- 2 footpounds,
+                    and the target is 25, NOT 27, and definitely not 29-31, as in the old /5 manual days. If your torque
+                    wrench is quite accurate, you may be able to use 27 or 28.</p>
+                  <p class="cite"><cite>Snowbum</cite> <a href="#3">[3]</a></p>
+                </blockquote>
+              </td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Valve Adjustment Nuts</td>
+              <td>14</td>
+              <td>20</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench orange"></i></td>
+              <td>Oil Drain Plug</td>
+              <td>22</td>
+              <td>30</td>
+              <td></td>
+              <td>Renew washer</td>
+              <td>
+                <blockquote><p>Book values have been variously from 20-25. I tend to use the
+                  low side of spec for this pan drain bolt.</p>
+                  <p class="cite"><cite>Snowbum</cite> <a href="#2">[2]</a></p>
+                </blockquote>
+              </td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Oil Filter Cover Plate Bolts</td>
+              <td>7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Hoses to Oil Cooler Thermostat</td>
+              <td>14</td>
+              <td>20</td>
+              <td></td>
+              <td>Use 4 new crush washers</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Oil Pickup Bolts</td>
+              <td>7</td>
+              <td>10</td>
+              <td></td>
+              <td>Use locktite blue</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Oil Pump Cover</td>
+              <td>7</td>
+              <td>10</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-warning"></i><i class="fa fa-wrench orange"></i></td>
+              <td>Oil Sump to Engine Housing</td>
+              <td>7 (78-81 inch lb.)</td>
+              <td>10</td>
+              <td></td>
+              <td>Gasket letter side up. Do *NOT* overtorque</td>
+              <td>
+                <blockquote>
+                  <p>I suggest less,
+                    perhaps 5.5-6 (ft lb), carefully tighten in a staggered cross-pattern, starting at the center ones,
+                    and do it
+                    very evenly. NO GOO! Put the lettered side UP</p>
+                  <p class="cite"><cite>Snowbum</cite> <a href="#2">[2]</a></p>
+                </blockquote>
+              </td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench red"></i></td>
+              <td>Exhaust Finned Nuts</td>
+              <td>144</td>
+              <td>200</td>
+              <td></td>
+              <td>Use anti-seize on spigot</td>
+              <td>
+                <blockquote>
+                  <p>There is NO GOOD REASON to have these nuts so
+                    tight. I don't know how tight I put them, but I suspect it
+                    is not over 90 foot-pounds. I never do them with a torque
+                    wrench, I always do it by feel, a decent grunt, using a
+                    proper finned wrench, and NOT too darn tight.</p>
+                  <p class="cite"><cite>Snowbum</cite> <a href="#2">[2]</a></p>
+                </blockquote>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+			</div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="timing" name="timing">Timing Chain Cover to Engine Housing</h3>
+
+					<div class="table-responsive">
+
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Nut</td>
+              <td>5</td>
+              <td>7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Bolt</td>
+              <td>7</td>
+              <td>10</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Camshaft Support Bearing</td>
+              <td>17</td>
+              <td>24</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Oil Pressure Switch</td>
+              <td>18</td>
+              <td>25</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+
+					</div>
+					
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="electrics" name="electrics">Engine Electrics</h3>
+
+					<div class="table-responsive">
+
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-warning"></i><i class="fa fa-wrench green"></i></td>
+              <td>Spark Plugs</td>
+              <td>14</td>
+              <td>20</td>
+              <td></td>
+              <td></td>
+              <td>Careful! Easily stripped by overtorquing.</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Alternator Rotor to Crankshaft</td>
+              <td>18</td>
+              <td>25</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+					</div>
+					
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="clutch" name="clutch">Clutch</h3>
+
+					<div class="table-responsive">
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Clutch Housing to Crankshaft (Flywheel)</td>
+              <td>72</td>
+              <td>100</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Clutch Cover Bolts</td>
+              <td>14</td>
+              <td>20</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+					</div>
+					
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="clutch" name="clutch">Transmission</h3>
+
+					<div class="table-responsive">
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench orange"></i></td>
+              <td>Oil Drain Plug</td>
+              <td>19</td>
+              <td>26</td>
+              <td></td>
+              <td>Renew washer</td>
+              <td>
+                <div class="alert">14-18.5 foot-pounds <a href="#2">[2]</a></div>
+              </td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench orange"></i></td>
+              <td>Oil Filter Plug</td>
+              <td>23</td>
+              <td>31</td>
+              <td></td>
+              <td>Renew washer</td>
+              <td>
+                <div class="alert">20-22 foot-pounds <a href="#2">[2]</a></div>
+              </td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Transmission to Engine</td>
+              <td>24</td>
+              <td>33</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Transmission Cover</td>
+              <td>6</td>
+              <td>8</td>
+              <td></td>
+              <td>Use new gasket</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Output Flange to Output Shaft</td>
+              <td>160</td>
+              <td>220</td>
+              <td></td>
+              <td>Clean and no oil</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Gearshift Bracket to Housing</td>
+              <td>17</td>
+              <td>24</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Driveshaft to Output Flange</td>
+              <td>25</td>
+              <td>35</td>
+              <td></td>
+              <td>Only use short bolts and no washers</td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+					</div>
+					
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="forks" name="forks">Front Forks</h3>
+
+						<div class="table-responsive">
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Fork Brace</td>
+              <td>21</td>
+              <td>29</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Upper Fork Sprint Cap</td>
+              <td>77</td>
+              <td>107</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Fork Oil Filler Plug Bolt</td>
+              <td>6</td>
+              <td>9</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Fork Oil Drain Plug Bolt</td>
+              <td>5</td>
+              <td>6</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench orange"></i></td>
+              <td>Steering Cap Nut</td>
+              <td>77</td>
+              <td>107</td>
+              <td></td>
+              <td></td>
+              <td>
+                <div class="alert">80-95 foot-pounds <a href="#2">[2]</a></div>
+              </td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Lower Fork Clamp Bolt</td>
+              <td>21</td>
+              <td>29</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Slotted Nut (Steering Pivot Bearing)</td>
+              <td>No Free Play</td>
+              <td>Max of 0.5</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Handlebar Pinch Bolts</td>
+              <td>15</td>
+              <td>22</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+						</div>
+					
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="frontaxle" name="frontaxle">Front Axle</h3>
+
+					<div class="table-responsive">
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Axle Clamp Bolts</td>
+              <td>10</td>
+              <td>15</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Axle Nut</td>
+              <td>33</td>
+              <td>45</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+					</div>
+					
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="rearaxle" name="rearaxle">Rear Axle</h3>
+
+					<div class="table-responsive">
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Axle Clamp Bolts</td>
+              <td>10</td>
+              <td>15</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Axle Nut</td>
+              <td>33</td>
+              <td>45</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+					</div>
+					
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="swingarm" name="swingarm">Swing Arm</h3>
+					
+					<div class="table-responsive">\
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Oil Drain Plug</td>
+              <td>10</td>
+              <td>15</td>
+              <td></td>
+              <td>Renew washer</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Oil Fill Plug</td>
+              <td>10</td>
+              <td>14</td>
+              <td></td>
+              <td>Renew washer</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Pin Bolt</td>
+              <td>7</td>
+              <td>10</td>
+              <td></td>
+              <td>Use pointed top to grease here</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Pin Bolt Lock Nut</td>
+              <td>72</td>
+              <td>100</td>
+              <td></td>
+              <td>Use a thin sided 27MM socket</td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+					</div>
+					
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="rearwheel" name="rearwheel">Rear Wheel Drive</h3>
+
+					<div class="table-responsive">
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Oil Drain Plug</td>
+              <td>18</td>
+              <td>25</td>
+              <td></td>
+              <td>Renew washer</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Oil Fill Plug</td>
+              <td>7</td>
+              <td>10</td>
+              <td></td>
+              <td>Renew washer</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-warning"></i><i class="fa fa-wrench green"></i></td>
+              <td>Oil Level Inspection Plug</td>
+              <td>5</td>
+              <td>8</td>
+              <td></td>
+              <td>Renew washer</td>
+              <td>Oil inspection plug is better to be left alone as it is easily stripped by overtorquing</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Rear Drive Housing to Swing Arm</td>
+              <td>34</td>
+              <td>47</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Housing Cover Bolt / Nut</td>
+              <td>10</td>
+              <td>15</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Shock Absorber Nut / Bolt</td>
+              <td>25</td>
+              <td>35</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Bevel Gear Nut</td>
+              <td>106</td>
+              <td>147</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Threaded Ring Nut</td>
+              <td>75</td>
+              <td>105</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+					</div>
+					
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="brake" name="brake">Brake</h3>
+
+					<div class="table-responsive">
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Brake Disc to Wheel</td>
+              <td>21</td>
+              <td>29</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+					</div>
+					
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <h3 id="frame" name="frame">Frame</h3>
+
+					<div class="table-responsive">
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Component</th>
+              <th>Foot Pounds</th>
+              <th>Newton Meters</th>
+              <th>Stages</th>
+              <th>Notes</th>
+              <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Rear Sub Frame Bolts</td>
+              <td>18</td>
+              <td>25</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Centerstand Bolts</td>
+              <td>24</td>
+              <td>35</td>
+              <td></td>
+              <td>Use blue loctite</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Sidestand Bolt</td>
+              <td>20</td>
+              <td>29</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Engine to Frame</td>
+              <td>52</td>
+              <td>72</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-wrench green"></i></td>
+              <td>Shock Frame Nut / Bolt</td>
+              <td>25</td>
+              <td>25</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
+					</div>
+					
+        </div>
+      </div>
+
+      <h2>Ready Reference </h2>
+
+      <ol>
+        <li name="1" id="1"><a href="http://www.w6rec.com/duane/bmw/torque/index.htm">Proper torque on the BMW
+          motorcycle</a>, by Duane Ausherman
+        </li>
+        <li name="2" id="2"><a href="http://bmwmotorcycletech.info/torquevalues.htm">Torque values for various fasteners
+          on the various models of BMW Airhead Motorcycles</a>, by Snowbum
+        </li>
+        <li name="3" id="3"><a href="http://bmwmotorcycletech.info/torquespecs&problems.htm">Torque specifications,
+          using torque wrenches; calibration checks;..... problems</a>, by Snowbum
+        </li>
+      </ol>
+
+      <h2>Thanks</h2>
+
+      <p>Special thanks to Brian Mehosky and Duane Ausherman for getting this started, and J Wilson for providing torque
+        details.</p>
+
+    </div>
+  </div>
+</div>
+
+<hr/>
+
+<footer>
+</footer>
+
+<!-- javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script type="text/javascript">
+    function forward() {
         with (document.convert) {
-        unit1.value = unit1.value.toString().replace(/[^\d\.eE-]/g,'');
-        if (unit1.value*0.737562149277 != 0) {
-          unit2.value = unit1.value*0.737562149277;
+            unit1.value = unit1.value.toString().replace(/[^\d\.eE-]/g, '');
+            if (unit1.value * 0.737562149277 != 0) {
+                unit2.value = unit1.value * 0.737562149277;
             }
-          }
         }
-      function backward() {
-      with (document.convert) {
-        unit2.value = unit2.value.toString().replace(/[^\d\.eE-]/g,'');
-        if (unit2.value/0.737562149277 != 0) {
-          unit1.value = unit2.value/0.737562149277;
+    }
+
+    function backward() {
+        with (document.convert) {
+            unit2.value = unit2.value.toString().replace(/[^\d\.eE-]/g, '');
+            if (unit2.value / 0.737562149277 != 0) {
+                unit1.value = unit2.value / 0.737562149277;
             }
-          }
         }
-    </script>
-  </body>
+    }
+</script>
+</body>
 </html>

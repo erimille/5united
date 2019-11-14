@@ -53,6 +53,7 @@ div.header h3 i {
 
 .page-container .row .card {
     padding: 10px;
+    margin: 5px;
 }
 
 .page-container ol li {
@@ -68,3 +69,11 @@ div.header h3 i {
     padding-bottom: 20px !important;
 
 }
+
+.blockquote {
+    font-size: inherit;
+    color: #6c757d;
+    border-left: 5px solid #b3d7ff;
+    padding-left: 10px;
+}
+

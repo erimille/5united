@@ -1,86 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>5 United / Articles - Maintenance Schedule</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
-    <style type="text/css">
-      h1 {
-      display: inline;
-      }
-      .background a.details {
-      position: absolute;
-      display: inline;
-      margin-left: 10px;
-      margin-top: 5px;
-      }
-      .background {
-      padding-bottom: 15px;
-      }   
-    </style>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <body>
+  <title>5United / Articles - Maintenance Schedule</title>
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-	<div class="container">
-	  <a class="brand" href="/">5 United <span class="tagline">Classic BMW Motorcycle Club</span></a>
-	  <ul class="nav pull-right">
-	    <li><a href="/">Home</a></li>
-	    <li><a href="/about/">About</a></li>
-	    <li class="active"><a href="/articles/">Articles</a></li>
-	    <li><a href="/service/">Parts / Service</a></li>
-	    <li><a href="/gallery/">Gallery</a></li>
-	    <li><a href="/events/">Events</a></li>
-	  </ul>
-	</div>
-      </div>
-    </div>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="/css/style.css" rel="stylesheet">
+</head>
 
-    <div class="container">
+<body>
 
-      <ul class="breadcrumb">
-	<li><a href="/">Home</a> <span class="divider">/</span></li>
-	<li><a href="/articles/">Articles</a> <span class="divider">/</span></li>
-        <li><a href="/articles/maintenance/">Basic Maintenance</a> <span class="divider">/</span></li>
-        <li class="active">Schedule</li>
-      </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand brand" href="/">
+    <img src="http://5united.org/img/5united-logo-small.png" alt="5 United Logo"/>
+    <span class="brand-title">5 United</span> <span class="brand-tagline">Classic BMW Motorcycle Club</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="/history/">History</a></li>
+      <li class="nav-item active"><a class="nav-link" href="/articles/">Articles</a></li>
+      <li class="nav-item"><a class="nav-link" href="/service/">Parts / Service</a></li>
+      <li class="nav-item"><a class="nav-link" href="/gallery/">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="/events/">Events</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+  <br/>
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item"><a href="/articles/">Articles</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Basic Maintenance</li>
+        </ol>
+      </nav>
+
 
       <h1>BMW Motorrad Maintenance Schedule for /5</h1>
-      <span class="background">	
-        <a href="#" class="details btn" id="pagehistory"
-	   data-toggle="popover" data-placement="right"
-	   data-content="Maintenance image provenance unknown. Please help track down origin." title="Page History"><i class="icon-info-sign"></i></a>
-      </span>
 
-      <div class="row">
-        <div class="span12">
-          <img src = "./airheadmaint.png" />
+      <div class="alert alert-info">
+        Maintenance image provenance unknown. Please help track down origin.
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-12">
+          <img src="./airheadmaint.png" class="img img-fluid img-thumbnail"/>
         </div>
       </div>
 
-      <hr />
-      <footer>
-      </footer>
+    </div>
+  </div>
+</div>
 
-    </div> <!-- /container -->
+<hr/>
 
-    <!-- javascript
-	 ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/bootstrap-tooltip.js"></script>
-    <script src="/js/bootstrap-popover.js"></script>
-    <script>
-      $(function (){ 
-      $("#pagehistory").popover({
-      placement:'right',
-      trigger:'hover' 
-      });
-      });
-    </script>
-  </body>
+<footer>
+</footer>
+
+<!-- javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
 </html>
