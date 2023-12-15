@@ -13,9 +13,9 @@
 
   <link href="./shops.js" type="application/json" rel="exhibit/data"/>
 
-  <link rel="exhibit-extension" type="text/javascript"
-        href="//api.simile-widgets.org/exhibit/3.0.0/extensions/map/map-extension.js"/>
   <script src="//api.simile-widgets.org/exhibit/3.0.0/exhibit-api.js"></script>
+  <link rel="exhibit-extension" type="text/javascript"
+        href="//api.simile-widgets.org/exhibit/3.0.0/extensions/map/map-extension.js" />
 
   <style type="text/css">
     .title {
@@ -100,6 +100,45 @@
 
         <div ex:role="viewPanel" class="col-md-8 viewpane" id="viewpane">
 
+          <div class="what-lens"
+               ex:role="exhibit-view"
+               ex:viewClass="Exhibit.TileView"
+               ex:label="Who">
+
+            <div ex:role="lens" class="a-lens" style="display: none;">
+
+              <div ex:if="exists(.url)" style="font-size: larger;">
+                <div class="title"><a ex:href-content=".url"><span ex:content=".label"></span></a></div>
+                <div class="title"><span ex:content=".label"></span></div>
+              </div>
+
+              <table class="details table table-striped" style="padding: 20px;">
+                <tr>
+                  <td class="property">Address:</td>
+                  <td><span ex:content=".address"></span></td>
+                </tr>
+                <tr>
+                  <td class="property">Contact Details:</td>
+                  <td>
+                    <span ex:content=".contact"></span>
+                    <span ex:content=".phone"></span>
+                    <span ex:content=".email"></span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <div ex:if="exists(.notes)">
+                    <td class="property">Shop notes:</td>
+                    <td><span ex:content=".notes"></span></td>
+                    <td class="property"></td>
+                    <td></td>
+                  </div>
+                </tr>
+              </table>
+
+            </div>
+
+          </div>
           <div class="where-lens"
                ex:role="view"
                ex:viewClass="Map"
@@ -139,46 +178,6 @@
                 </tr>
               </table>
             </div>
-          </div>
-
-          <div class="what-lens"
-               ex:role="exhibit-view"
-               ex:viewClass="Exhibit.TileView"
-               ex:label="Who">
-
-            <div ex:role="lens" class="a-lens" style="display: none;">
-
-              <div ex:if="exists(.url)" style="font-size: larger;">
-                <div class="title"><a ex:href-content=".url"><span ex:content=".label"></span></a></div>
-                <div class="title"><span ex:content=".label"></span></div>
-              </div>
-
-              <table class="details table table-striped" style="padding: 20px;">
-                <tr>
-                  <td class="property">Address:</td>
-                  <td><span ex:content=".address"></span></td>
-                </tr>
-                <tr>
-                  <td class="property">Contact Details:</td>
-                  <td>
-                    <span ex:content=".contact"></span>
-                    <span ex:content=".phone"></span>
-                    <span ex:content=".email"></span>
-                  </td>
-                </tr>
-
-                <tr>
-                  <div ex:if="exists(.notes)">
-                    <td class="property">Shop notes:</td>
-                    <td><span ex:content=".notes"></span></td>
-                    <td class="property"></td>
-                    <td></td>
-                  </div>
-                </tr>
-              </table>
-
-            </div>
-
           </div>
 
         </div>
